@@ -6,10 +6,10 @@ func P[T any](o T) (r *T) {
 }
 
 // V returns value of pointer.
-// If nil, returns zero-value of givern type
+// If nil, returns zero-value of given type.
 func V[T any](o *T) (r T) {
 	if o != nil {
 		r = *o
 	}
-	return r
+	return
 }
