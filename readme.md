@@ -1,6 +1,6 @@
 # Ptr — useful pointer-related funcs, which go lacks so much
 
-I got tired of implemented these two method in every project of mine.
+I got tired of implementing these two method in every project of mine.
 
 ## Usage
 
