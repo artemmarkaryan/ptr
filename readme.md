@@ -12,6 +12,6 @@ now := ptr.P(time.Now()) // -> *time.Time
 ```go
 // get value of pointer
 nilValue := (nil).(*int)
-zeroValue := ptr.V(nilValue)  // -> 0
+zeroValue := ptr.V(nilValue) // -> 0
 ```
 
